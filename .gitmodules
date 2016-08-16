@@ -1,0 +1,4 @@
+[submodule "confluence-to-markdown-converter"]
+	path = confluence-to-markdown-converter
+	url = https://github.com/Deveo/confluence-to-markdown-converter.git
+	branch = gh-pages
