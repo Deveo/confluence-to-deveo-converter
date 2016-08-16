@@ -41,6 +41,9 @@ python confluence-deveo.py [CONFLUENCE_URL] [CONFLUENCE_SPACE_KEY] [CONFLUENCE_U
 - [CONFLUENCE_USER] is your confluence user name that has permission to read the space and its pages, e.g. `ikontulainen`, and
 - [CONFLUENCE_PASSWORD] is password for your confluence user.
 
+3. Results:
+After executing the script, you should have two directories created, namely `markdown`, and `confluence`. The `markdown` directory contains the converted markdown pages in `pages` subdirectory and attachments in `attachments` subdirectory. The Confluence pages, appended and prepended with the appropriate XML metadata are stored in `confluence` directory for debugging purposes.
+
 # More information
 
 If you would like to read more about the migration process, check [this blog post](http://blog.deveo.com/confluence-to-markdown-wiki-migration)
