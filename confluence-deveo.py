@@ -2,7 +2,7 @@ import urllib2, base64, json
 import codecs, os, sys
 
 if len(sys.argv) != 5:
-    print "Usage: python confluence-deveo.py [CONFLUENCE_URL] [CONFLUENCE SPACE KEY] [CONFLUENCE USER] [CONFLUENCE PASSWORD]"
+    print "Usage: python confluence-deveo.py [CONFLUENCE_URL] [CONFLUENCE_SPACE_KEY] [CONFLUENCE_USER] [CONFLUENCE_PASSWORD]"
     exit()
 CONFLUENCE_URL = sys.argv[1].strip('/')
 CONFLUENCE_SPACE = sys.argv[2]
